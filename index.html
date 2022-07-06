@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sliding_Login_Form | Pro_Unified</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script  src="master.js"></script>
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+    
+<body>
+  <div class="social">
+    <center>
+    <a href="https://amoldhumal95.github.io/" target="_new"><button>Amol Dhumal</button></a>
+    <a href="https://github.com/amoldhumal95" target="_new"><button class="fa-brands fa-github"></button></a>
+    <a href="https://www.instagram.com/pro_unified" target="_new"><button class="fa-brands fa-instagram"></button></a>
+    <a href="https://github.com/amoldhumal95/slidingLogin"><button class="fa-solid fa-code" target="_new"></button></a>
+  </center>
+  </div>
+
+<div id="back">
+  <div class="backRight"></div>
+  <div class="backLeft"></div>
+</div>
+
+<div id="slideBox">
+  <div class="topLayer">
+    <div class="left">
+      <div class="content">
+        <h2>Sign Up</h2>
+        <form method="post" onsubmit="return false;">
+          <div class="form-group">
+            <input type="text" placeholder="Username" />
+            <input type="password" placeholder="Password" />
+          </div>
+          <div class="form-group"></div>
+          <div class="form-group"></div>
+          <div class="form-group"></div>
+        </form>
+        <button id="goLeft" class="off">Login</button>
+        <button>Sign up</button>
+      </div>
+    </div>
+    <div class="right">
+      <div class="content">
+        <h2>Login</h2>
+        <form method="post" onsubmit="return false">
+          <div class="form-group">
+            <input type="text" placeholder="Username" />
+            <input type="password" placeholder="Password" />
+          </div>
+          <button id="goRight" class="off">Sign Up</button>
+          <button id="login" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+</body>
+
+</html>
+
+<!--Inspiration from: http://ertekinn.com/loginsignup/-->
